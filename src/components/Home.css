@@ -1,0 +1,52 @@
+.carousel-item img{
+    height: 400px !important;
+}
+
+
+.carousel-navbar {
+    position: relative;
+}
+
+.nav-menu{
+    position: absolute;
+    top: -10%;
+    width: 100%;
+    margin-top: 5%;
+  
+}
+
+.nav-menu li a {
+    color: white;
+    font-weight: bolder;
+}
+
+.nav-menu li a:hover{
+    color: orangered !important;
+}
+
+.description{
+    font-size: medium;
+    margin: 5% !important;
+}
+
+.what-we-offer{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.what-offer-content{
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    background-color: rgba(140, 136, 136, 0.638);
+    color: black;
+    border-radius: 10px;
+
+}
+
+.what-offer-content h2 , .what-offer-content p {
+    padding: 5%;
+    font-weight: bold;
+}
+
