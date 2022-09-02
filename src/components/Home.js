@@ -120,7 +120,7 @@ export default function Home() {
         </p>
       </div>
       {/*  CONTACT COMP */}
-      <Contact />
+      <Contact  DBRef={"/Comments"} />
       <Footer />
     </div>
   );

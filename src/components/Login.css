@@ -1,0 +1,41 @@
+.login{
+    margin-top : 10%;
+    width: 100%;
+    display: flex;
+    padding: 0 20px;
+}
+
+.login .loginContainer{
+    padding : 60px;
+    margin : auto;
+    box-shadow: 0 50px 70px -20px black;
+    background : 
+    linear-gradient(45deg, rgb(66, 17, 17), rgb(74, 11, 74))
+}
+
+.login .loginContainer label , h3{
+    color : white
+}
+
+.login .loginContainer input {
+    width: 100%;
+    padding : 10px;
+    
+}
+
+.login .loginContainer .btnContainer {
+    width: 100%;
+    padding : 25px 0 ;
+}
+
+button {
+    cursor : pointer;
+    color : rgb(0, 0, 0);
+    width: 100%;
+    
+}
+
+.login .loginContainer .errorMsg{
+    color: red;
+    font-size: 15px;
+}
