@@ -40,7 +40,7 @@ export default function Login(props) {
           />
           <p className="errorMsg">{passwordError}</p>
           <div className="btnContainer">
-            <button onClick={handelLogin}>Login</button>
+            <button  className="loginBtn" onClick={handelLogin}>Login</button>
           </div>
         </div>
       </section>

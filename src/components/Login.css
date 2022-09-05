@@ -1,5 +1,5 @@
 .login{
-    margin-top : 10%;
+    height: 900px !important;
     width: 100%;
     display: flex;
     padding: 0 20px;
@@ -28,7 +28,7 @@
     padding : 25px 0 ;
 }
 
-button {
+.loginBtn {
     cursor : pointer;
     color : rgb(0, 0, 0);
     width: 100%;
@@ -38,4 +38,13 @@ button {
 .login .loginContainer .errorMsg{
     color: red;
     font-size: 15px;
+}
+
+.dashboard ul {
+    background: linear-gradient(90deg,violet,rgb(156, 156, 253));
+}
+.content{
+    background: linear-gradient(20deg,violet,rgb(156, 156, 253));
+    
+    padding-top: 1%;
 }
