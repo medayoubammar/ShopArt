@@ -30,7 +30,8 @@ function App() {
   };
 
   useEffect(()=>{
- const authListener = () => { auth.onAuthStateChanged((user)=>{
+ const authListener = () => { 
+  auth.onAuthStateChanged((user)=>{
       if(user) {
         setUser(user)
       }
@@ -41,10 +42,14 @@ function App() {
     authListener();
   },[])
 
+  const handelLogOut = () => {
+    auth.signOut();
+  }
+
   return (
     <div className="App">
       {user ? (
-        <Dashboard />
+        <Dashboard  handelLogOut={handelLogOut} />
       ) : (
         <Login
           email={email}
