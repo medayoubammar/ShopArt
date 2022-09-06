@@ -13,7 +13,7 @@ export default function Home() {
       <div className="carousel-navbar">
         <div
           id="carouselExampleIndicators"
-          className="carousel slide"
+          className="carousel slide myCarousel"
           data-bs-ride="true"
         >
           <div className="carousel-indicators">

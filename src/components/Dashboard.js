@@ -14,8 +14,14 @@ export default function Dashboard(props) {
   return (
     <div className='dashboard'>
     <ul className="nav justify-content-center">
+    <li className="nav-item">
+    <a className='nav-link active ' >
+      <Link to="/" className='btn' >Home page</Link>
+       </a> 
+  </li>
+
   <li className="nav-item">
-    <a className="nav-link active" aria-current="page" href="#">
+    <a className="nav-link active" aria-current="page" >
 
     { contentName === "addWork" ?   <img alt="insert" src={insertWork} width="30px" /> : <></>}
     <button className='btn' onClick={()=>{setContent(<AddWork />);setContentName("addWork")}}>Add new work</button>
